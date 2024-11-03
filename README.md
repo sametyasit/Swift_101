@@ -1,33 +1,33 @@
-Kasım Adalan ile iOS Bootcamp 
+iOS Bootcamp with Kasım Adalan
 
-Merhaba bu repo, Kasım Adalan’ın iOS Bootcamp programında öğrendiklerimi ve geliştirdiğim projeleri içeriyor. 
---------------------------------------------------------------------------------------------------------------------------------------
-Neler Öğrendim?
+Hello, this repo contains what I learned and the projects I developed in Kasım Adalan's iOS Bootcamp program.
 
--Bu Bootcamp, baştan sona mobil uygulama geliştirme sürecinde yetkinlik kazanmayı sağladı
+-------------------------------------------------------------------------------------------------------------------
 
--Swift'e Hakimiyet: Swift ile kod yazmayı öğrenmek, detaylarına hâkim olmak.
+What Did I Learn?
 
--Uygulama Geliştirme: Swift kullanarak profesyonel seviyede uygulamalar geliştirebiliyorum.
+-This Bootcamp enabled gaining competence in the mobile application development process from start to finish
 
--Fikirleri Hayata Geçirme: Artık aklıma gelen uygulama fikirlerini mobil platformda hayata geçirebilecek bilgiye sahibim.
+-Mastering Swift: Learning how to code with Swift and mastering its details.
 
--Uygulama Marketi Deneyimi: Geliştirdiğim uygulamaları app store ile geniş kitlelere ulaştırabiliyorum.
+-Application Development: I can develop professional level applications using Swift.
 
---------------------------------------------------------------------------------------------------------------------------------------
+-Bringing Ideas to Life: I now have the knowledge to implement the application ideas that come to my mind on the mobile platform.
 
+-App Market Experience: I can deliver the applications I develop to large audiences through the app store.
 
+-------------------------------------------------------------------------------------------------------------------
 
-Bootcamp Süresince Neler Yaptım?
+What Did I Do During Bootcamp?
 
--iOS geliştirmeye yönelik farklı konularda ödevler yaptım.
+-I did homework on different topics regarding iOS development.
 
--Swift hakkında öğrendiklerimi paylaşmak için bir Medium makalesi yazdım.
+-I wrote a Medium article to share what I learned about Swift.
 
--Bootcamp sonunda tüm bilgimi uyguladığım kapsamlı bir proje geliştirdim.
+-At the end of bootcamp, I developed a comprehensive project where I applied all my knowledge.
 
-- --------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
-Bu repo, Bootcamp süresince yaptığım projeleri içeriyor. Kurs boyunca her projede öğrendiklerimi pratik etme ve ileri taşıma fırsatım oldu.
+This repo contains the projects I made during Bootcamp. Throughout the course, I had the opportunity to practice and carry forward what I learned in every project.
 
-Kasım Hocamın bu kursunu almak isteyen arkadaşlar için ----->   https://www.udemy.com/course/ios-bootcamp-program-swift/?couponCode=KEEPLEARNING
+For friends who want to take this course of Prof. Kasım -----> https://www.udemy.com/course/ios-bootcamp-program-swift/?couponCode=KEEPLEARNING
