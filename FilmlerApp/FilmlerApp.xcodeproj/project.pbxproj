@@ -16,6 +16,9 @@
 		799C7BFA2A836FDA0099098C /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C7BF92A836FDA0099098C /* Filmler.swift */; };
 		799C7BFC2A8370470099098C /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C7BFB2A8370470099098C /* DetaySayfa.swift */; };
 		799C7BFE2A8371790099098C /* FilmlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C7BFD2A8371790099098C /* FilmlerHucre.swift */; };
+		799C7C752A83AB000099098C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 799C7C742A83AB000099098C /* RxSwift */; };
+		799C7C782A83AB260099098C /* FilmlerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C7C772A83AB260099098C /* FilmlerDaoRepository.swift */; };
+		799C7C7B2A83AB510099098C /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C7C7A2A83AB510099098C /* AnasayfaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,8 @@
 		799C7BF92A836FDA0099098C /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
 		799C7BFB2A8370470099098C /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
 		799C7BFD2A8371790099098C /* FilmlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerHucre.swift; sourceTree = "<group>"; };
+		799C7C772A83AB260099098C /* FilmlerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDaoRepository.swift; sourceTree = "<group>"; };
+		799C7C7A2A83AB510099098C /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799C7C752A83AB000099098C /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,7 @@
 		799C7BF42A836F4B0099098C /* data */ = {
 			isa = PBXGroup;
 			children = (
+				799C7C762A83AB080099098C /* repo */,
 				799C7BF72A836F7A0099098C /* entity */,
 			);
 			path = data;
@@ -85,6 +92,7 @@
 		799C7BF52A836F670099098C /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				799C7C792A83AB3E0099098C /* viewmodel */,
 				799C7BF82A836F8D0099098C /* tableview */,
 				799C7BF62A836F6E0099098C /* views */,
 			);
@@ -116,6 +124,22 @@
 			path = tableview;
 			sourceTree = "<group>";
 		};
+		799C7C762A83AB080099098C /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				799C7C772A83AB260099098C /* FilmlerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		799C7C792A83AB3E0099098C /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				799C7C7A2A83AB510099098C /* AnasayfaViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +156,9 @@
 			dependencies = (
 			);
 			name = FilmlerApp;
+			packageProductDependencies = (
+				799C7C742A83AB000099098C /* RxSwift */,
+			);
 			productName = FilmlerApp;
 			productReference = 799C7BDD2A836F0F0099098C /* FilmlerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 799C7BD42A836F0F0099098C;
+			packageReferences = (
+				799C7C732A83AB000099098C /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 799C7BDE2A836F0F0099098C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,10 +219,12 @@
 			files = (
 				799C7BE52A836F0F0099098C /* Anasayfa.swift in Sources */,
 				799C7BE12A836F0F0099098C /* AppDelegate.swift in Sources */,
+				799C7C7B2A83AB510099098C /* AnasayfaViewModel.swift in Sources */,
 				799C7BE32A836F0F0099098C /* SceneDelegate.swift in Sources */,
 				799C7BFC2A8370470099098C /* DetaySayfa.swift in Sources */,
 				799C7BFA2A836FDA0099098C /* Filmler.swift in Sources */,
 				799C7BFE2A8371790099098C /* FilmlerHucre.swift in Sources */,
+				799C7C782A83AB260099098C /* FilmlerDaoRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		799C7C732A83AB000099098C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		799C7C742A83AB000099098C /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 799C7C732A83AB000099098C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 799C7BD52A836F0F0099098C /* Project object */;
 }
